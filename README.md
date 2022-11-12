@@ -13,10 +13,11 @@ Original sample code is just a simple react program
 
 you will see something like this:
 
-<img src="images/debug.png" height="400" width="400"/>
+<img src="images/debug.png" height="400" width="100%"/>
 
 ## This chapter will add our built react package
 
 * `git clone https://github.com/facebook/react`
 * Modify the script `scripts/rollup/build.js`
-    ** 
+    ** You can just copy the `utils/build.js to replace`, remmber to change this
+    <img src="images/note.png" height="100%" width="100%"/>
