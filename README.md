@@ -19,5 +19,7 @@ you will see something like this:
 
 * `git clone https://github.com/facebook/react`
 * Modify the script `scripts/rollup/build.js`
-    ** You can just copy the `utils/build.js to replace`, remmber to change this
+    ** You can just copy the `utils/build.js to replace`, remember to change this
     <img src="images/note.png" height="100%" width="100%"/>
+
+>NOTE:可以运行`sh utils/patch.sh`来直接完成替换脚本与build过程
