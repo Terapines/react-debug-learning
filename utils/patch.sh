@@ -14,7 +14,7 @@ else
 fi
 
 cd ${REACT_BUILD_DIR}
-git clone https://github.com/facebook/react
+git clone -b 18.2 https://github.com/facebook/react
 
 # Patch build.js
 if [ ! -d ${REACT_BUILD_DIR}/scripts/rollup/ ];then
@@ -32,6 +32,6 @@ if [ -z "${NODE_EX_PATH}" ];then
     exit 1
 fi
 
-
-node scripts/rollup/build.js
+cd  ${REACT_BUILD_DIR}/react
+npm install && node ${REACT_BUILD_DIR}/react/scripts/rollup/build.js
 
