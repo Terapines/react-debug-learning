@@ -18,7 +18,7 @@ git clone https://github.com/facebook/react
 
 # Patch build.js
 
-cp -f ${PWD}/build.js ${REACT_BUILD_DIR}/scripts/rollup/build.js
+cp -f ${PWD}/build.js ${REACT_BUILD_DIR}/scripts/rollup/
 
 
 #Build source code
