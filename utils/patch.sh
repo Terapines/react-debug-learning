@@ -17,6 +17,9 @@ cd ${REACT_BUILD_DIR}
 git clone https://github.com/facebook/react
 
 # Patch build.js
+if [ ! -d ${REACT_BUILD_DIR}/scripts/rollup/ ];then
+    mkdir -p ${REACT_BUILD_DIR}/scripts/rollup/
+fi
 
 cp -f ${PWD}/build.js ${REACT_BUILD_DIR}/scripts/rollup/
 
@@ -28,6 +31,7 @@ if [ -z "${NODE_EX_PATH}" ];then
     echo "Please install node first"
     exit 1
 fi
+
 
 node scripts/rollup/build.js
 
