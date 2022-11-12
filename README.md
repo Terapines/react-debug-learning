@@ -14,3 +14,9 @@ Original sample code is just a simple react program
 you will see something like this:
 
 <img src="images/debug.png" height="400" width="400"/>
+
+## This chapter will add our built react package
+
+* `git clone https://github.com/facebook/react`
+* Modify the script `scripts/rollup/build.js`
+    ** 
