@@ -14,3 +14,7 @@ Original sample code is just a simple react program
 you will see something like this:
 
 <img src="images/debug.png" height="400" width="400"/>
+
+## <font color="red">NOTE</font>
+
+For debugging source react code, please refer to branch `build-react`
