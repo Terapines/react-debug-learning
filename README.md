@@ -23,3 +23,7 @@ you will see something like this:
     <img src="images/note.png" height="100%" width="100%"/>
 
 >NOTE:可以运行`sh utils/patch.sh`来直接完成替换脚本与build过程
+
+## Last Step
+
+build顺利完成后,${react_source_folder}/scripts/build/node_modules下面会生成带有`sourcemap`的文件夹,然后替换掉`${workSpaceFolder}/node_modules/react`和`${workSpaceFolder}/node_modules/react-dom`这两个文件夹
